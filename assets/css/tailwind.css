@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .wrapper {
+      @apply container max-w-screen-xl px-4 pb-12 mx-auto break-words sm:px-8;
+    }
+    h1 {
+      @apply py-12 text-4xl font-semibold tracking-tight font-sans sm:text-6xl;
+    }
+    h2 {
+      @apply pt-12 pb-4 text-3xl font-semibold tracking-tight lg:pb-8 lg:pt-20 font-sans sm:text-5xl;
+    }
+    h3 {
+      @apply py-4 text-xl font-semibold tracking-tight font-sans sm:text-2xl;
+    }
+    h4 {
+      @apply py-4 text-lg font-semibold tracking-tight font-sans sm:text-xl;
+    }
+    h5,
+    h6 {
+      @apply py-4 font-sans;
+    }
+    p {
+      @apply py-6 font-sans text-base prose max-w-5xl sm:text-lg;
+    }
+    p strong {
+      @apply font-semibold;
+    }
+    .anim {
+      @apply transition duration-300;
+    }
+    .navLink {
+      @apply px-2 py-1 text-base rounded-lg anim hover:bg-gray-200;
+    }
+    .icon {
+      @apply h-10;
+    }
+    .padded-image {
+      @apply my-8;
+    }
+    .btn-red {
+        @apply rounded-xl px-8 border-4 border-red-500 text-center text-red-500 font-sans py-4 text-xl font-bold hover:border-red-900 hover:text-red-900 hover:bg-red-200 transition duration-300 sm:text-2xl;
+    }
+    .btn-green {
+        @apply rounded-xl px-8 border-4 border-green-500 text-center text-green-500 font-sans py-4 text-xl font-bold hover:border-green-900 hover:text-green-900 hover:bg-green-200 transition duration-300 sm:text-2xl;
+    }
+    table {
+        @apply w-full overflow-x-auto border-2 table-auto border-red-800 rounded-xl;
+      }
+      th {
+        @apply p-4 text-lg font-semibold text-white bg-red-800 font-sans;
+      }
+      tr,
+      td {
+        @apply p-4 font-sans text-base;
+      }
+  }
+
+@layer base {
+    
+    @font-face {
+        font-family: "Lato";
+        font-weight: 100;
+        src: url("../fonts/Lato/Lato-Thin.ttf");
+      }
+      @font-face {
+        font-family: "Lato";
+        font-weight: 300;
+        src: url("../fonts/Lato/Lato-Light.ttf");
+      }
+      @font-face {
+        font-family: "Lato";
+        font-weight: 400;
+        src: url("../fonts/Lato/Lato-Regular.ttf");
+      }
+      @font-face {
+        font-family: "Lato";
+        font-weight: 700;
+        src: url("../fonts/Lato/Lato-Bold.ttf");
+      }
+      @font-face {
+        font-family: "Lato";
+        font-weight: 900;
+        src: url("../fonts/Lato/Lato-Black.ttf");
+      }
+}

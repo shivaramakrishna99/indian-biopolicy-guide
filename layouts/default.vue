@@ -1,6 +1,8 @@
 <template>
   <div>
+    <PolicyHeader />
     <Nuxt />
+    <PolicyFooter />
   </div>
 </template>
 
