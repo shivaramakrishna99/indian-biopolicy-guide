@@ -10,7 +10,7 @@
 <script>
 export default {
   async asyncData({ $content, error }) {
-    const article = await $content("non-human-samples").fetch();
+    const article = await $content("way-forward").fetch();
 
     if (!article) {
       return error({ statusCode: 404, message: "Article not found" });

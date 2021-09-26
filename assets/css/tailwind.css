@@ -4,7 +4,7 @@
 
 @layer components {
     .wrapper {
-      @apply container max-w-screen-xl px-4 pb-12 mx-auto break-words sm:px-8;
+      @apply container max-w-screen-xl px-4 py-12 sm:py-24 mx-auto break-words sm:px-8;
     }
     h1 {
       @apply py-12 text-4xl font-semibold tracking-tight font-sans sm:text-6xl;
@@ -31,9 +31,6 @@
     .anim {
       @apply transition duration-300;
     }
-    .navLink {
-      @apply px-2 py-1 text-base rounded-lg anim hover:bg-gray-200;
-    }
     .icon {
       @apply h-10;
     }
@@ -41,10 +38,10 @@
       @apply my-8;
     }
     .btn-red {
-        @apply rounded-xl px-8 border-4 border-red-500 text-center text-red-500 font-sans py-4 text-xl font-bold hover:border-red-900 hover:text-red-900 hover:bg-red-200 transition duration-300 sm:text-2xl;
+        @apply rounded-xl px-8 border-2 border-red-500 text-center text-red-500 font-sans py-4 text-xl font-bold hover:border-red-900 hover:text-red-900 hover:bg-red-200 transition duration-300 sm:text-2xl;
     }
-    .btn-green {
-        @apply rounded-xl px-8 border-4 border-green-500 text-center text-green-500 font-sans py-4 text-xl font-bold hover:border-green-900 hover:text-green-900 hover:bg-green-200 transition duration-300 sm:text-2xl;
+    .btn-red-small {
+        @apply rounded-md px-4 border-2 border-red-700 text-center text-red-700 font-sans py-2 text-lg font-normal hover:border-red-900 hover:text-red-900 hover:bg-red-200 transition duration-300 sm:text-xl;
     }
     table {
         @apply w-full overflow-x-auto border-2 table-auto border-red-800 rounded-xl;
