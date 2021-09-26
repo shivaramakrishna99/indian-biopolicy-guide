@@ -14,7 +14,7 @@
             text-red-900
           "
         >
-          A HANDY GUIDE TO SHIPMENT POLICIES FOR BIOLOGICAL MATERIALS WITHIN AND
+          A HANDY GUIDE TO SHIPPING POLICIES FOR BIOLOGICAL MATERIALS WITHIN AND
           OUTSIDE THE INDIAN REGION
         </div></nuxt-link
       >
