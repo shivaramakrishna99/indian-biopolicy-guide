@@ -50,7 +50,7 @@
 
     <div class="bg-gray-200">
       <div class="wrapper py-24">
-        <a href="~/assets/Indian Shipping Policies for Biological Samples.pdf" target="_blank"
+        <a href="https://github.com/shivaramakrishna99/indian-biopolicy-guide/blob/master/assets/Indian%20Shipping%20Policies%20for%20Biological%20Samples.pdf" target="_blank"
           ><button
             class="
               font-sans
