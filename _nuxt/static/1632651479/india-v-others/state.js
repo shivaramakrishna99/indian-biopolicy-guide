@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Findian-biopolicy-guide\u002F_nuxt\u002Fstatic\u002F1632651479",layout:"default",error:a,serverRendered:true,routePath:"\u002Findia-v-others",config:{_app:{basePath:"\u002Findian-biopolicy-guide\u002F",assetsPath:"\u002Findian-biopolicy-guide\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"06d7c245"}}}}(null));
