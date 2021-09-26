@@ -70,10 +70,10 @@
             Read the PDF
           </button></a>
         <p>
-          This content was written by Priyannth R.S., Swetha Nagarajan,
-          Shivaramakrishna Srinivasan and Shruti Sridhar during the 2021 After
-          iGEM Global Shipping Hackathon. <br /><br />Developed by
-          Shivaramakrishna Srinivasan.
+          This content was written by Priyannth R.S., Swetha Nagarajan and Shruti Sridhar during the 2021 After
+          iGEM Global Shipping Hackathon. <br /><br />
+          Developed by Shivaramakrishna Srinivasan.<br>
+          Images taken from <a href="https://unsplash.com">Unsplash</a>.
         </p>
       </div>
     </div>
