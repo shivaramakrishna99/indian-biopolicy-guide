@@ -2,7 +2,7 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   router: {
-    base: '/indian-bio-shipping-policies/'
+    base: '/indian-biopolicy-guide/'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
