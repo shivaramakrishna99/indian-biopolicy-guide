@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-red-50">
+  <div>
     <div class="wrapper">
       <h1 class="text-red-800">Shipping Policies in the Indian region</h1>
       <img
         src="https://images.unsplash.com/photo-1619392553201-3d9ab3169271?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2670&q=80"
         class="py-8"
       />
-      <p class="text-xl text-red-800">
+      <p class="text-xl">
         This is a comprehensive overview of the shipping policies in India. The
         kinds of samples in the purview of this policy analysis include
         Genetically Modified Organisms (GMOs), microorganisms, nucleic acids,
